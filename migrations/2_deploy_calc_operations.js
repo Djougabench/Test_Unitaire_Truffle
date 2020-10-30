@@ -13,11 +13,11 @@ module.exports = async (deployer) => {
   // for further deployments.
 
   // adderInstance is an abstraction/instance of Adder
-  const adderInstance = await adderInstance.deploy(Adder);
+  await deployer.deploy(Adder);
   // suberInstance is an abstraction/instance of Suber
-  const suberInstance = await suberInstance.deploy(Suber);
+  await deployer.deploy(Suber);
   // multiplierInstance is an abstraction/instance of Multiplier
-  const multiplierInstance = await multiplierInstance.deploy(Multiplier);
+  await deployer.deploy(Multiplier);
   // divisorInstance is an abstraction/instance of Divisor
-  const divisorInstance = await divisorInstance.deploy(Divisor);
+  await deployer.deploy(Divisor);
 };

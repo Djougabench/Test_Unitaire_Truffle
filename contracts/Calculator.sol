@@ -11,11 +11,16 @@ contract Calculator {
     Multiplier private _multiplierContract;
     Divisor private _divisorContract;
 
-    constructor() public {
-        _adderContract = Adder(_adderContract);
-        _suberContract = Suber(_suberContract);
-        _multiplierContract = Multiplier(_multiplierContract);
-        _divisorContract = Divisor(_divisorContract);
+    constructor(
+        address adderContract,
+        address suberContract,
+        address multiplierContract,
+        address divisorContract
+    ) public {
+        _adderContract = Adder(adderContract);
+        _suberContract = Suber(suberContract);
+        _multiplierContract = Multiplier(multiplierContract);
+        _divisorContract = Divisor(divisorContract);
     }
 
     function add(uint256 nb1, uint256 nb2) public view returns (uint256) {

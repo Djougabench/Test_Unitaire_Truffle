@@ -14,8 +14,8 @@ module.exports = async (deployer) => {
   const multiplierInstance = await Multiplier.deployed();
   // divisorInstance is an instance of the already deployed Divisor contract
   const divisorInstance = await Divisor.deployed();
-  const calculatorInstance = await calculatorInstance.deploy(
-    Calculator.address,
+  await deployer.deploy(
+    Calculator,
     Adder.address, // use Adder address from artifact
     Suber.address, // use Suber address from artifact
     multiplierInstance.address, // use Multiplier address from instance

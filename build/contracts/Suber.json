@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"nb1\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"nb2\",\"type\":\"uint256\"}],\"name\":\"sub\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/bench/AlyraProjet/Calculator-sol/contracts/Suber.sol\":\"Suber\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/bench/AlyraProjet/Calculator-sol/contracts/Suber.sol\":{\"keccak256\":\"0x4b42e7217350c7374afad87e6add0591b02f43da93d2178382f98411ee092b17\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5c6a4f2ee722a1d7cac71c428d62cd995c19e7a330068f44219b041096def850\",\"dweb:/ipfs/QmPi3W6G8qSQeKjMGLFoF573XHyTw8h3CA3BMxq4EtcEmR\"]}},\"version\":1}",
@@ -692,9 +693,47 @@
     "name": "solc",
     "version": "0.6.12+commit.27d51765.Linux.g++"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x11C19f1B661fef0D33117DccB44258A6d0eF38F2",
+      "transactionHash": "0x5b35046b958b3bf9cdf6ff67f96288f19e9c9bb212da020c24a191a84c75270c"
+    },
+    "5": {
+      "events": {},
+      "links": {},
+      "address": "0x11C19f1B661fef0D33117DccB44258A6d0eF38F2",
+      "transactionHash": "0x5b35046b958b3bf9cdf6ff67f96288f19e9c9bb212da020c24a191a84c75270c"
+    },
+    "42": {
+      "events": {},
+      "links": {},
+      "address": "0x11C19f1B661fef0D33117DccB44258A6d0eF38F2",
+      "transactionHash": "0x5b35046b958b3bf9cdf6ff67f96288f19e9c9bb212da020c24a191a84c75270c"
+    },
+    "1603968409589": {
+      "events": {},
+      "links": {},
+      "address": "0x1c6cc1D88a80Ebf3495e54C3E601C6B4648aA4D4",
+      "transactionHash": "0xe7799af3e21939f45bcfa94fd27800a1c5ff88289264f026ee63a19549e6c202"
+    },
+    "1603969747976": {
+      "events": {},
+      "links": {},
+      "address": "0xA9776D4159927Cf2d515c839293CF25fcD8292AB",
+      "transactionHash": "0xae13618c61c2d93799fc0b5e3faccca9e56d64efd3ee70b8f980ea29b054678b"
+    },
+    "1603982473598": {
+      "events": {},
+      "links": {},
+      "address": "0x156768a38d64cbF0af3D9a6A9e141bD3e00e17A8",
+      "transactionHash": "0xa8516138760a59f3d95afaaa4acd92a0a6fe4fc99563553f2564942963ee0296"
+    }
+  },
   "schemaVersion": "3.3.1",
-  "updatedAt": "2020-10-28T15:15:26.812Z",
+  "updatedAt": "2020-10-30T17:44:18.703Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
