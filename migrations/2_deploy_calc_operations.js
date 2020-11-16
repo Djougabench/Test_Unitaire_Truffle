@@ -1,5 +1,5 @@
 // Adder is an artifact of the Adder contract
-const Adder = artifacts.require('Adder');
+const BlackIco = artifacts.require('BlackIco');
 // Suber is an artifact of the Suber contract
 const Suber = artifacts.require('Suber');
 // Multiplier is an artifact of the Multiplier contract
